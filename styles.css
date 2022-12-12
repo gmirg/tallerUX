@@ -10,7 +10,7 @@ body {
     border: 2px solid #4379CA;
     border-radius: 20px;
     padding: 47px;
-    width: 1124px;
+    width: 73%;
 }
 
 .forms {
@@ -78,13 +78,13 @@ p {
 .email {
     border: solid 1px #4379CA;
     border-radius: 20px;
-    width: 643px;
+    width: 88%;
     height: 44px;
     padding-left: 12px;
     font-size: large;
-    box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 4px 21px -14px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 2px 4px 21px -14px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 2px 4px 21px -14px rgb(0 0 0 / 75%);
     margin: 8px 0;
     background-color: white;
     
