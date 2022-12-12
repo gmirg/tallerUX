@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción a Bridgeworld</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="Vector-Bridgeworld.svg" alt="logo" width="336" height="51">
+    </nav>
+    <h1>Mantente siempre conectado a la actualidad</h1>
+    <div class="principal">
+        <div class="title">
+            <h2>Suscríbete a nuestra newsletter</h2>
+            <p>Introduce tu e-mail y te mantendremos al tanto de las nuevas investigaciones tecnológicas,
+                artículos de
+                profesionales, nuevas <br> herramientas de trabajo...</p>
+        </div>
+        <form class="forms">
+            <div class="email-box">
+                <label class="tituloEmail">Email</label>
+                <input class=type="email" placeholder="email@example.com" class="email"></input>
+                <input type="checkbox" class="check">
+                <label>He leído las <a href="https://www.thebridge.tech/politica-privacidad" target="_blank">politicas
+                        de privacidad</a> y acepto recibir correos por parte de
+                    Bridgeworld.</label>
+                <input type="submit" value="Suscríbete" class="suscribete" disabled>
+            </div>
+            <div class="select">
+                <label>¿Cada cuánto tiempo quieres recibir estas noticias?</label>
+                <select class="seleccionar">
+                    <option>Semanal</option>
+                    <option>Quincenal</option>
+                    <option>Mensual</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    </div>
+    <script>
+        function enableSubmit() {
+            let inputs = document.getElementsByClassName('required');
+            let btn = document.querySelector('input[type="submit"]');
+            let isValid = true;
+            for (var i = 0; i < inputs.length; i++) {
+                let changedInput = inputs[i];
+                if (changedInput.value.trim() === "" || changedInput.value === null) {
+                    isValid = false;
+                    break;
+                }
+            }
+            btn.disabled = !isValid;
+        }
+    </script>
+</body>
+
+</html>

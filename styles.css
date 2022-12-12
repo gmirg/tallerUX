@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    padding: 68px;
+}
+
+.principal {
+    border: 2px solid #4379CA;
+    border-radius: 20px;
+    padding: 47px;
+    width: 1124px;
+}
+
+.forms {
+    display: flex;
+}
+
+.title,
+.email-box {
+    width: 60%;
+}
+
+.email-box label {
+    font-size: 16px
+    hei;
+}
+
+.select {
+    width: 40%;
+
+}
+
+h1 {
+    color: #4379CA;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-top: 0;
+    color: black;
+
+}
+
+p {
+    font-size: medium;
+}
+
+.suscribete {
+    background-color:#4379CA ;
+    border: none;
+    color :#fff ;
+    border-radius: 20px;
+
+    width: 238px;
+    height: 68px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    float: right;
+    margin: 12px;
+}
+.suscribete:disabled {
+    background-color: #CACACA;
+    color: #CACACA;
+}
+.suscribete:hover {
+    background-color: #A1BEE9;
+    color: #0A3C87;
+}
+.suscribete:active {
+    background-color: #0C2E62;
+    color: white;
+}
+.email {
+    border: solid 1px #4379CA;
+    border-radius: 20px;
+    width: 643px;
+    height: 44px;
+    padding-left: 12px;
+    font-size: large;
+    box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    margin: 8px 0;
+    background-color: white;
+    
+}
+
+.email:hover {
+    border: solid 1px #4379CA;
+    border-radius: 20px;
+    width: 643px;
+    height: 44px;
+    padding-left: 12px;
+    font-size: large;
+    box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    margin: 8px 0;
+    background-color:  #4379CA;
+    
+}
+
+.email:visited{
+    border: solid 1px #4379CA;
+    border-radius: 20px;
+    width: 643px;
+    height: 44px;
+    padding-left: 12px;
+    font-size: large;
+    box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
+    margin: 8px 0;
+    background-color: #17ca23;
+}
+
+
+.check {
+    width: 18px;
+    height: 16px;
+}
+
+.seleccionar {
+    width: 180px;
+    height: 25px;
+    margin-top: 20px;
+}
