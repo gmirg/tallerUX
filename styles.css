@@ -10,7 +10,7 @@ body {
     border: 2px solid #4379CA;
     border-radius: 20px;
     padding: 47px;
-    width: 73%;
+    width: 60%;
 }
 
 .forms {
@@ -22,15 +22,15 @@ body {
     width: 60%;
 }
 
+.email-box {
+    display: flex;
+    flex-direction: column;
+}
+
 .email-box label {
-    font-size: 16px
-    hei;
+    font-size: 16px hei;
 }
 
-.select {
-    width: 40%;
-
-}
 
 h1 {
     color: #4379CA;
@@ -49,11 +49,11 @@ p {
 }
 
 .suscribete {
-    background-color:#4379CA ;
+    background-color: #4379CA;
     border: none;
-    color :#fff ;
+    color: #fff;
     border-radius: 20px;
-
+    margin-left: 400px;
     width: 238px;
     height: 68px;
     font-size: 24px;
@@ -62,19 +62,24 @@ p {
     float: right;
     margin: 12px;
 }
+
+
 .suscribete:disabled {
     background-color: #f5f5f5;
     color: #CACACA;
     border: #CACACA solid;
 }
+
 .suscribete:hover:enabled {
     background-color: #A1BEE9;
     color: #0A3C87;
 }
+
 .suscribete:active:enabled {
     background-color: #0C2E62;
     color: white;
 }
+
 .email {
     border: solid 1px #4379CA;
     border-radius: 20px;
@@ -87,37 +92,25 @@ p {
     -moz-box-shadow: 2px 4px 21px -14px rgb(0 0 0 / 75%);
     margin: 8px 0;
     background-color: white;
-    
+
 }
 
 .email:hover {
-    border: solid 1px #4379CA;
-    border-radius: 20px;
-    width: 643px;
-    height: 44px;
-    padding-left: 12px;
-    font-size: large;
-    box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
-    margin: 8px 0;
-    background-color:  #4379CA;
-    
+    background-color: #f5f5f5;
+    border: 2px solid #1147b5;
+
 }
 
-.email:visited{
-    border: solid 1px #4379CA;
-    border-radius: 20px;
-    width: 643px;
-    height: 44px;
-    padding-left: 12px;
-    font-size: large;
-    box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 20px -14px rgba(0, 0, 0, 0.75);
-    margin: 8px 0;
-    background-color: #17ca23;
+
+.email:hover:enabled {
+    background-color: #A1BEE9;
+    color: #0A3C87;
 }
+
+.email-box .suscribete {
+    margin-left: 335px;
+}
+
 
 
 .check {
@@ -130,3 +123,15 @@ p {
     height: 25px;
     margin-top: 20px;
 }
+
+
+
+.politica {
+    display: flex;
+    flex-direction: row;
+}
+
+.tituloEmail {
+    margin-left: 10px;
+}
+
