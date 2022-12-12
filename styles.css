@@ -63,14 +63,15 @@ p {
     margin: 12px;
 }
 .suscribete:disabled {
-    background-color: #CACACA;
+    background-color: #f5f5f5;
     color: #CACACA;
+    border: #CACACA solid;
 }
-.suscribete:hover {
+.suscribete:hover:enabled {
     background-color: #A1BEE9;
     color: #0A3C87;
 }
-.suscribete:active {
+.suscribete:active:enabled {
     background-color: #0C2E62;
     color: white;
 }
